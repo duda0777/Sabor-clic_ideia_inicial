@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Sabor &amp; Clic — plataforma visual para cardápios digitais, pedidos e gestão de cozinhas." name="description"/>
+  <title>Sabor &amp; Clic | Seu sabor favorito, um clique</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <!-- Cabeçalho e navegação -->
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">S<span>&amp;</span>C</span>
+      <span class="brand-name">sabor<span>&amp;</span>clic<small>experiência gastronômica</small></span>
+    </a>
+    <nav class="main-nav">
+      <a href="#inicio">Início</a>
+      <a href="#acesso">Acessar</a>
+    </nav>
+    <a class="button button-outline button-small" href="#acesso">Entrar</a>
+  </header>
+
+  <main id="conteudo">
+    <!-- Apresentação principal -->
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> GASTRONOMIA COM ORGANIZAÇÃO</span>
+        <h1>Seu sabor favorito,<br/><em>a um clique.</em></h1>
+        <p>Uma experiência prática para descobrir pratos, acompanhar pedidos e conectar clientes, empreendedores e equipes de cozinha.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="cliente/index.html">Explorar cardápio <span>↗</span></a>
+          <a class="button button-light" href="#acesso">Conhecer a plataforma</a>
+        </div>
+        <div class="hero-note">
+          <span class="avatar-stack"><i>🍅</i><i>🥑</i><i>🍋</i></span>
+          <span><strong>Uma plataforma, vários sabores.</strong><br/>Do pedido à preparação.</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image">
+          <img alt="Bowl colorido com ingredientes frescos" src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"/>
+        </div>
+        <div class="floating-card floating-rating"><span class="rating-star">★</span><div><strong>4,9/5</strong><small>Experiência dos clientes</small></div></div>
+        <div class="floating-card floating-delivery"><span class="delivery-icon">✓</span><div><strong>Pedido acompanhado</strong><small>Da cozinha até você</small></div></div>
+        <div class="hero-sticker">feito com<br/><b>carinho</b> ♡</div>
+      </div>
+    </section>
+
+    <!-- Acesso aos perfis -->
+    <section class="section-wrap access-section" id="acesso">
+      <div class="section-heading">
+        <div><span class="eyebrow">ÁREA DE ACESSO</span><h2>Escolha seu <em>perfil</em></h2></div>
+        <p>Entre na área correspondente à sua função na plataforma.</p>
+      </div>
+      <div class="profile-grid" id="perfis">
+        <a class="profile-card" href="cliente/index.html"><span class="profile-icon peach">♧</span><h3>Cliente</h3><p>Explore o cardápio, monte seu carrinho e acompanhe seus pedidos.</p><span class="profile-link">Acessar área <b>↗</b></span></a>
+        <a class="profile-card" href="empreendedor/index.html"><span class="profile-icon green">▥</span><h3>Empreendedor</h3><p>Gerencie pratos, pedidos, clientes e resultados do negócio.</p><span class="profile-link">Acessar área <b>↗</b></span></a>
+        <a class="profile-card" href="cozinheiro/index.html"><span class="profile-icon yellow">♨</span><h3>Cozinheiro</h3><p>Visualize a fila de produção e organize o preparo dos pedidos.</p><span class="profile-link">Acessar área <b>↗</b></span></a>
+        <a class="profile-card" href="administrador/index.html"><span class="profile-icon lilac">⌘</span><h3>Administrador</h3><p>Administre o catálogo, os usuários e os espaços gastronômicos.</p><span class="profile-link">Acessar área <b>↗</b></span></a>
+      </div>
+
+      <!-- Prévia de login -->
+      <div class="login-preview">
+        <div class="login-art">
+          <span class="login-art-tag">SABOR &amp; CLIC</span>
+          <div class="login-food">🥗</div>
+          <p>Boas experiências<br/>começam à mesa.</p>
+        </div>
+        <form class="login-form">
+          <span class="eyebrow">BEM-VINDO(A) DE VOLTA</span>
+          <h3>Entre na sua conta</h3>
+          <p class="muted">Acesse sua área para continuar.</p>
+          <label for="login-email">E-mail</label>
+          <input id="login-email" placeholder="seuemail@exemplo.com" type="email"/>
+          <label for="login-password">Senha</label>
+          <input id="login-password" placeholder="Digite sua senha" type="password"/>
+          <div class="form-between">
+            <label class="check-label"><input type="checkbox"/> Manter conectado</label>
+            <a href="#acesso">Esqueceu a senha?</a>
+          </div>
+          <a class="button button-primary button-full" href="#perfis">Entrar na demonstração</a>
+          <p class="form-foot">Ainda não tem conta? <a href="#acesso">Criar conta</a></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <span>Sabor &amp; Clic</span>
+    <small>Uma plataforma, vários sabores.</small>
+  </footer>
+</body>
+</html>
